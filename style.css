@@ -1,0 +1,34 @@
+body {
+    font-family:sans-serif;
+}
+
+ul, li, a{
+    display: flex;
+    padding: 10px;
+}
+
+
+.dropdown-menu{
+    display: block;
+    position: absolute;
+    width: 15%;
+}
+
+.dropdown-item :hover{
+    display: none;
+}
+
+
+.carousel-inner .carousel-item {
+    height: 70vh;
+    object-fit: cover;
+}
+
+
+
+
+    
+
+
+
+
