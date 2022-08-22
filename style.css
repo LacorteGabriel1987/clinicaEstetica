@@ -1,34 +1,22 @@
-body {
-    font-family:sans-serif;
+
+.menu, ul, li{
+    background-color: rgb(11, 12, 12);
+    color: aliceblue;
+    width: 170px;
+    border: 1px solid white;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;    
+    font-size: 16px;
+    list-style: none;
+    justify-content: center;
 }
 
-ul, li, a{
-    display: flex;
-    padding: 10px;
-}
-
-
-.dropdown-menu{
-    display: block;
-    position: absolute;
-    width: 15%;
-}
-
-.dropdown-item :hover{
+.sub-menu{
     display: none;
 }
 
-
-.carousel-inner .carousel-item {
-    height: 70vh;
-    object-fit: cover;
+.sub-menu, .sub-item :hover{
+    display: block;
+    color:red
 }
-
-
-
-
-    
-
-
-
-
