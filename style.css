@@ -6,6 +6,9 @@
 
 .sub-menu{
     position: absolute;    
+    padding: 0;
+    top: 40px;
+    right: -12px;
 }
 
 .ul,li{
@@ -19,11 +22,11 @@
 
 li:hover .sub-menu {
     display: block;    
-    padding-top: 25px;
 }
 
 li{
     text-align: center;    
     flex-direction: column;
     justify-items: center;    
+    position: relative;
 }
