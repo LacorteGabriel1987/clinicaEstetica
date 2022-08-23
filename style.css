@@ -1,17 +1,22 @@
 
 .menu, ul, li{
     display: flex;
-    padding: 10px;    
+    padding: 10px;   
 }
 
 .sub-menu{
-    position: absolute;    
+    position: absolute;
+    padding: 0;
+    top: 40px;
+    right: -12px;        
 }
+
 
 .ul,li{
     border: 2px solid black;
     margin: 10px;
-    width: 100px;    
+    width: 100px;
+    
 }
 .sub-menu, .sub-item :hover{
     display: none;    
@@ -19,11 +24,11 @@
 
 li:hover .sub-menu {
     display: block;    
-    padding-top: 25px;
 }
 
 li{
     text-align: center;    
     flex-direction: column;
-    justify-items: center;    
+    justify-items: center;
+    position: relative;
 }
