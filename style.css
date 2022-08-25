@@ -1,3 +1,14 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+header{
+    background-color: rgb(109, 86, 58);  
+}
 
 .menu, ul, li{
     display: flex;
@@ -8,40 +19,38 @@
     position: absolute;
     padding: 0;
     top: 40px;
-    right: -12px;
+    right: -19px;
 }
-
 
 .ul,li{
     border: 1px solid black;
-    margin: 10px;
+    border:none;
+    margin: 15px;
     width: 100px;
-    
+    background-color: rgb(41, 38, 34);
+    border-radius: 10px;
 }
+
 .sub-menu, .sub-item :hover{
-    display: none;
+    display: none;    
 }
 
 li:hover .sub-menu {
     display: block;
 }
-
 li{
     text-align: center;
     flex-direction: column;
     justify-items: center;
     position: relative;
+    z-index: 5;       
 }
-
 .title{
     padding-top: 10px;
 }
 
 ul, li{
     display: flex;
-    margin-left: 100px;       
+    margin-left: 100px;
 }
 
-header{
-    background-color: rgb(109, 86, 58);
-}
