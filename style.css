@@ -89,9 +89,15 @@ section{
     text-align: center;
 }
 
+@media screen and (max-width: 1090px) {
+    header, .video{
+    width: 100%;
+    
+    }
+}
 
 @media screen and (max-width: 1090px) {
-    ul, li,a, main, p,  iframe{
+    ul, li,a, main, p, iframe, #contato, label{
     flex-direction: column;
     font-size:16px;
     width: auto;
@@ -99,12 +105,23 @@ section{
     }
 }
 @media screen and (max-width: 1090px) {
-    #projetos, img{
-    width: 200px;
-    padding-bottom: 150px;
+    #projetos{
+    width: 100%;
     
     }
 }
+
+
+
+@media screen and (max-width: 315px) {
+    iframe, label{
+    width: 100px;
+    height: 100px;
+    
+    
+    }
+}
+
 
 @media screen and (max-width: 1090px) {
     #contato,.video, iframe{
@@ -115,10 +132,11 @@ section{
     }
 }
 
-@media screen and (max-width: 640px) {
-    ul, li,a, main, iframe{
-    flex-direction: column;
-    font-size:10pt;
-        
+@media screen and (max-width: 315px) {
+    #contato,.video, iframe{
+    padding-top: 50px;
+    font-size:16px;
+    width: auto;
+    
     }
 }
