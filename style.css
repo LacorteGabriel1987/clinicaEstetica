@@ -89,7 +89,7 @@ section{
     text-align: center;
 }
 
-@media screen and (max-width: 1090px) {
+@media screen and (min-width: 360px) {
     header, .video{
     width: 100%;
     
